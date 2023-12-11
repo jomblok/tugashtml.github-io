@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Syendhi reswara s">
+    <title> @sendiresuara - 71231061 - Personal Web Page</title>
+    <link rel="stylesheet" href="tekom.css">
+</head>
+
+<body>
+    <header>
+    <p>TENTANG SAYA</p>
+    </header>
+    <section id="foto">
+        <img src="saya.png" width="20%" height="60%">   
+    </section>
+    <section id="tentang-saya">
+        <type>SYENDHI RESWARA S</type>
+    </section>
+    <section id="keterampilan">
+        <type>skillset</type>
+        <ol>
+            <li>CSS</li>
+            <li>PYTHON</li>
+            <li>HTML</li>
+            <li>JAVASCRIPT</li>
+        </ol>
+        
+    </section>
+
+    <section id="akun instagram">
+        <type>Akun Instagram:</type>
+        <type>@sendiresuara</type>
+    </section>
+
+    <section id="asal kota">
+        <type>KEPENDUDUKAN</type>
+        <ol>
+            <li>Provinsi:Kepulauan riau</li>
+            <li>Kota    :Batam</li>
+            <li>Negara  :Indonesia</li>
+        </ol>
+    </section>
+
+    <P> HEWAN KESUKAAN SAYA KUCING </P>
+
+    <video autoplay loop muted playsinline
+    width="1000"
+    source src="VIDEO KUCING.mp4" type="video/mp4">
+    
+    <button id="tombolGantiWarna"> </button>
+
+    <footer>
+    
+    </footer>
+
+    <script>
+        const bodyElement = document.body;
+
+        function gantiWarnaRandom() {
+            const warnaList = ['#8fce00' ,'#00ccff' ,'#78009e' ,'#9900cc'];
+            const randomIndex = Math.floor(Math.random() * warnaList.length);
+            const warnaRandom = warnaList[randomIndex];
+            bodyElement.style.backgroundColor = warnaRandom;
+        }
+
+        const tombolGantiWarna = document.getElementById('tombolGantiWarna');
+        tombolGantiWarna.addEventListener('click', gantiWarnaRandom);
+    </script>
+</body>
+</html>

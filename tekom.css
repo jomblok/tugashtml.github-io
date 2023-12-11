@@ -1,0 +1,21 @@
+
+    .centered
+    {
+        text-align: center;
+        color:brown;
+        background-color: rgb(61, 155, 236);
+
+    }
+    .large
+    {
+        font-size: large;
+    }
+    .medium
+    {
+        font-size:medium;
+        color:chartreuse;
+    }
+    body {
+        background-color: #98dbfc;
+        font-family: sans-serif;
+      }
